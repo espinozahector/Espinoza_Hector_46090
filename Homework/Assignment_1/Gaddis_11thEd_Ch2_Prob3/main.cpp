@@ -19,22 +19,22 @@ using namespace std; //std namespace -> iostream
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables Here
-    float Price= 95.00;
-    float SalTax= .04;
-    float CounTax= .02;
-    float STaxTtl;
-    float CTaxTtl;
-    float SCTax;
+    float Price= 95.00; //Price purchase
+    float SalTax= .04;  //Sales Tax
+    float CounTax= .02; //County Tax
+    float STaxTtl;      //Sales tax total
+    float CTaxTtl;      //County tax total
+    float SCTax;        //Sales tax + County Tax
  
     //Input Values Here
  
     //Process Input Here
-    STaxTtl=(Price*.04);
-    CTaxTtl=(Price*.02);
+    STaxTtl=(Price*SalTax);
+    CTaxTtl=(Price*CounTax);
     SCTax=(CTaxTtl+STaxTtl);
  
     //Output Unknowns Here]
-    cout<<fixed<<showpoint<<setprecision(2)<<SCTax<<endl;
+    cout<<fixed<<showpoint<<setprecision(2)<<"The total Sale tax = $"<<SCTax<<endl;
     
     //Exit Stage Right!
     return 0;

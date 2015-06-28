@@ -18,16 +18,16 @@ using namespace std; //std namespace -> iostream
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables Here
-    float ris =1.5; //
-    float fiveyr =5;
-    float sevenyr = 7;
-    float tenyr =10;
-    float total1, total2, total3;
+    float ris =1.5;               //rising level per year
+    float fiveyr =5;              //Ocean level in 5 years
+    float sevenyr = 7;            //Ocean level in 7 years
+    float tenyr =10;              //Ocean level in 10 years
+    float total1, total2, total3; //Total amount each year
  
     //Input Values Here
  
     //Process Input Here
-    total1=(ris*fiveyr);
+    total1=(ris*fiveyr); 
     total2=(ris*sevenyr);
     total3=(ris*tenyr);
             

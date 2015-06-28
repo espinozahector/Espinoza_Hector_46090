@@ -21,12 +21,12 @@
  int main(int argc, char** argv) {
  
  //Declare Variables Here
- string x;
+ string x;    //To allow any character to be inputed then outputted
  
  //Input Values Here
  
  cout<<"Input any character from the keyboard."<<endl;
- cin>>x;   //Input any char. 
+ cin>>x;   //Input any character 
  
  
  //Process Input Here

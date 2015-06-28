@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Hector Espinoza
  * Created on June 26, 2015, 5:55 PM
- * Purpose: 
+ * Purpose: Distance Per Tank of Gas
  */
  
 //System Libraries
@@ -18,11 +18,11 @@ using namespace std; //std namespace -> iostream
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables Here
-    float Tank =20;
-    float mpgtwn =23.5;
-    float mpghwy =28.9;
-    float dist1;
-    float dist2;
+    float Tank =20;     //Total of Gallons the tank can hold
+    float mpgtwn =23.5; //Mpg in town
+    float mpghwy =28.9; //Mpg on the highway
+    float dist1;        //Distance in town
+    float dist2;        //Distance on the highway
     //Input Values Here
  
     //Process Input Here

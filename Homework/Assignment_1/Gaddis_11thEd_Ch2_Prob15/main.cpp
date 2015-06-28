@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Hector Espinoza
  * Created on June 26, 2015, 5:01 PM
- * Purpose: 
+ * Purpose: Triangle Pattern
  */
  
 //System Libraries

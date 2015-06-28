@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Hector Espinoza
  * Created on June 26, 2015, 6:04 PM
- * Purpose: 
+ * Purpose: Stock Commission
  */
  
 //System Libraries
@@ -18,10 +18,10 @@ using namespace std; //std namespace -> iostream
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables Here
-    float shares= 750;
-    float shrPri= 35;
-    float comm= .02;
-    float gross,TtlComm,Total;
+    float shares= 750;         //Total number of shares bought
+    float shrPri= 35;          //Price per share
+    float comm= .02;           //Commission percentage
+    float gross,TtlComm,Total; //Gross of shares*price, Total commission in dollar amount, Total of Gross price +commission
   
     //Input Values Here
  
