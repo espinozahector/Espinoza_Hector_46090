@@ -1,0 +1,10 @@
+Welcome to the game of 21, based on the popular card game.
+How to play: The objective of the game is to get the highest total without exceeding 21.
+Each player has an independent game against the dealer and the objective is to beat the dealer.
+If the players hand total is higher then 21, it is called a bust, and the dealer wins.
+Even if both the player and the dealer have a bust as well.
+A 21 hand is calculated as follows: Cards of 2-10 are worth their face value.
+Jack, Queen, King are also worth 10 each.
+The Ace card is worth 11 unless it causes the player to bust his hand, which in this case the Ace can be counted as a 1.
+A two cards hand with the ace and a 10 value is called blackjack and it is a winning hand,
+unless the dealer has an Ace and a 10 value, in this case is a bust.
